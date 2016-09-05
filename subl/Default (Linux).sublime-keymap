@@ -1,0 +1,10 @@
+[
+    { "keys": ["ctrl+shift+h"]     , "command": "align_tab"               , "args" : {"live_preview" : true }} ,
+    { "keys": ["ctrl+shift+="]     , "command": "align_tab"               , "args" : {"user_input" : "\\="  }} ,
+    { "keys": ["ctrl+shift+space"] , "command": "align_tab"               , "args" : {"user_input" : "\\s+" }} ,
+    { "keys": ["ctrl+shift+, "]    , "command": "align_tab"               , "args" : {"user_input" : "\\ ," }} ,
+    { "keys": ["ctrl+shift+;"]     , "command": "align_tab"               , "args" : {"user_input" : "\\:"  }} ,
+    { "keys": ["ctrl+shift+["]     , "command": "align_tab"               , "args" : {"user_input" : "\\{"  }} ,
+    { "keys": ["ctrl+k"]           , "command": "find_under_expand_skip" 									 } ,
+    { "keys": ["ctrl+shift+d"]     , "command": "run_macro_file"          , "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} } ,
+]
