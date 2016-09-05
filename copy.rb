@@ -35,6 +35,7 @@ def do_copy(flag)
 		   	  [dest, raw]
 		   end
 
+      puts "#{from}       =>      #{to}"
 		  FileUtils.copy_entry(from, to)
 		end
 	end
