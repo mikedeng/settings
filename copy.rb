@@ -22,10 +22,11 @@ def confirm
 end
 
 def do_copy(flag)
-	Hs.each do |dir, arr|
+	Hs.each do |dir, kv|
 		p_path = dir.to_s
-		FileUtils.mkdir_p(p_path)
-		arr.each do |filepath|
+		FileUtils.mkdir_p(p_path)		
+		kv.each do |filepath, flag|		  
+		  next if flag != 1
 		  filename = File.basename(filepath)
 		  raw  = filepath
 		  dest = p_path + '/' + filename
@@ -36,7 +37,7 @@ def do_copy(flag)
 		   end
 
 		  return unless File.exists?(from)
-      puts "#{from}       =>      #{to}"
+      	  puts "#{from}       =>      #{to}"
 		  FileUtils.copy_entry(from, to)
 		end
 	end
