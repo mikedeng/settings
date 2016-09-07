@@ -1,5 +1,5 @@
-login = 'mike'
-#login = 'dengm'
+#login = 'mike'
+login = 'dengm'
 
 Hs = {
  "subl" =>
@@ -9,6 +9,6 @@ Hs = {
  		},
  "zsh" =>      {
 		
-                 "/home/" + login + "/.oh-my-zsh/plugins/common-aliases/common-aliases.plugin.zsh"         => 1,
+                 "/home/" + login + "/.zshrc"         => 1,
 		}
 }
