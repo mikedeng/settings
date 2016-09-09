@@ -52,6 +52,7 @@ alias mv='mv -i'
 
 alias sshty='ssh webuser@tiyan'
 alias sshoss='ssh webuser@oss'
+alias clp='xclip -sel clip < '
 
 # zsh is able to auto-do some kungfoo
 # depends on the SUFFIX :)
