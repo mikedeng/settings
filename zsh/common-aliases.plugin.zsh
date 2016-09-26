@@ -52,7 +52,8 @@ alias mv='mv -i'
 
 alias sshty='ssh webuser@tiyan'
 alias sshoss='ssh webuser@oss'
-alias clp='xclip -sel clip < '
+alias clip='xclip -sel clip < '
+alias capty='cap test_tiyanudesk deploy'
 
 # zsh is able to auto-do some kungfoo
 # depends on the SUFFIX :)
