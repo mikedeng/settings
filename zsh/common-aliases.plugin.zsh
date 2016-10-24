@@ -53,7 +53,10 @@ alias mv='mv -i'
 alias sshty='ssh webuser@tiyan'
 alias sshoss='ssh webuser@oss'
 alias clip='xclip -sel clip < '
-alias capty='cap test_tiyanudesk deploy'
+alias capty='bundle exec cap test_tiyanudesk deploy'
+alias be='bundle exec'
+alias rgm='rails g migration'
+alias rdm='rake db:migrate'
 
 # zsh is able to auto-do some kungfoo
 # depends on the SUFFIX :)
